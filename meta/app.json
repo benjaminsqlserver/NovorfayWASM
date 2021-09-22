@@ -1,0 +1,56 @@
+{
+  "dataSources": [
+    "ConData"
+  ],
+  "generator": "@radzen/blazor-server",
+  "https": true,
+  "layouts": [
+    "Login",
+    "Main"
+  ],
+  "logo": "",
+  "name": "Novorfay",
+  "navigation": [
+    "Products",
+    "Product Categories"
+  ],
+  "pages": [
+    "Products",
+    "Add Product",
+    "Edit Product",
+    "Product Categories",
+    "Add Product Category",
+    "Edit Product Category",
+    "Login",
+    "Application Users",
+    "Application Roles",
+    "Register Application User",
+    "Add Application Role",
+    "Add Application User",
+    "Edit Application User",
+    "Profile",
+    "Unauthorized"
+  ],
+  "security": {
+    "autoGeneratePages": true,
+    "dataSource": "ConData",
+    "duration": 5,
+    "emailConfirmation": false,
+    "layout": "Main",
+    "loginLayout": "Login",
+    "provider": "default",
+    "sessionRefresh": false,
+    "smtpFrom": "",
+    "smtpPassword": "",
+    "smtpSSL": false,
+    "smtpServer": "",
+    "smtpUser": "",
+    "loginPage": "Login"
+  },
+  "serverLang": "cs",
+  "serverProject": true,
+  "serverVersion": "5",
+  "startPage": "Products",
+  "theme": "default",
+  "wasm": true
+}
